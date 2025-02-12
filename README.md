@@ -1,4 +1,4 @@
-# python-screen
+# python-image-blit
 
 A simple class for blitting pixels to a canvas, and either displaying that canvas on-screen or writing to a file.
 
@@ -14,6 +14,7 @@ image.pixel(200, 250, (0,255,0))
 image.pixel(250, 100, (0,0,255))
 
 image.show()
+image.save("out.png")
 ```
 
 ---
@@ -24,3 +25,4 @@ Also included is a few samples of very primitive graphics code, to demonstrate h
 
 `triangle.py` - demos how triangles are rasterized to the screen.
 `raytracer.py` - a very simple raytracer, complete with camera and materials and all.
+
